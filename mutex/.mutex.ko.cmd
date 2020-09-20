@@ -1,0 +1,1 @@
+cmd_/home/shashank/LDD_training/mutex/mutex.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/shashank/LDD_training/mutex/mutex.ko /home/shashank/LDD_training/mutex/mutex.o /home/shashank/LDD_training/mutex/mutex.mod.o ;  true

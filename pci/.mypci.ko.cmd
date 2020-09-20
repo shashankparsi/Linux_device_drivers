@@ -1,0 +1,1 @@
+cmd_/home/shashank/LDD_training/pci/mypci.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/shashank/LDD_training/pci/mypci.ko /home/shashank/LDD_training/pci/mypci.o /home/shashank/LDD_training/pci/mypci.mod.o ;  true
